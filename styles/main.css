@@ -1,5 +1,26 @@
+/* SCSS Styles Start */
+/* SCSS Styles End */
+/* Global Styles Start */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Global Styles End */
+/* Navbar Styles Start */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Navbar Styles End */
+/* Card Styles Start */
 .card {
-  background-color: #d3d3d3;
+  background-color: #bababa;
   color: #000000;
   text-align: center;
   text-decoration: none;
@@ -8,4 +29,6 @@
 .card:hover {
   color: red;
 }
+
+/* Card Styles End */
 /*# sourceMappingURL=main.css.map */
