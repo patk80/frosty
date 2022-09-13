@@ -34,5 +34,12 @@ $light-gray: #bababa;
       &:hover {
           color: red;
       }
+    img {
+        transition: all 1s;
+        &:hover {
+            transform: scale(0.9);
+            transition: all 1s;
+        } 
+    }
   }
 /* Card Styles End */

@@ -30,5 +30,17 @@
   color: red;
 }
 
+.card img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 /* Card Styles End */
 /*# sourceMappingURL=main.css.map */
